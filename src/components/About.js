@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Image, Container } from 'react-bootstrap';
+import { Row, Container } from 'react-bootstrap';
 
 import classes from './about.module.css';
 

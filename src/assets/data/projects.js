@@ -1,13 +1,9 @@
 /**IMGE LOADING */
-import datahub from '../../assets/tlcDataHub.jpg';
-import tlcdash from '../../assets/tlcFastDash.png';
-import ratInspector from '../../assets/ratInspector.jpeg';
 import db from '../../assets/database_design.png';
 // import web_dev from '../../assets/web_dev.jpeg';
 import web_dev from '../../assets/web_development2.png'
 import rpython from '../../assets/r_python.png';
 import data_analytics from '../../assets/data_analytics.jpeg';
-import react_native from '../../assets/react_native.png';
 import consulting from '../../assets/ideas.png';
 import rshiny from '../../assets/rshiny.png';
 
