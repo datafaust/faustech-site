@@ -1,0 +1,15 @@
+  
+.title {
+    /* font-family: sans-serif; */
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: italic;
+    /* margin-left: 1%;    */
+}
+
+.navbarChoices {
+    font-family: Arial;
+    /* font-style: italic; */
+    font-weight: bold;
+}

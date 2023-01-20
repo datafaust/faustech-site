@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    /* background-color: yellow; */
+    font-size: 3.0em;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.cards {
+    padding: 20px;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    .title {
+        text-align: center;
+        /* background-color: yellow; */
+        font-size: 2.0em;
+        margin-top: 10px;
+        margin-left: 29%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .cards {
+        padding: 20px;
+        justify-content: space-between;
+        /* background-color: yellow; */
+    }
+    .container {
+        flex-direction: column
+    }
+
+}
+
+  

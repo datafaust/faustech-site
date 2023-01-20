@@ -1,0 +1,94 @@
+.container {
+    background-color: white;
+    /* background-color: #E6D1F2; */
+    padding: 3.5rem;
+    
+}
+
+.title {
+    padding: 3.5rem;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #615d6d;
+}
+
+.cardContainer {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.cards {
+    padding: 3.5rem;
+}
+
+.serviceContactButton {
+    width: 400px;
+    margin: 5% 35%;
+    /* justify-content: center; */
+    padding: 10px 10px;
+    font-family: arial;
+    text-align: center;
+    /* vertical-align: middle; */
+    padding: 0.9375rem 3rem;
+    border-radius: 5rem;
+    /* background: #05172d; */
+    background: #28a745;
+    font-size: 1.5rem;
+    color: #fff;
+    /* text-decoration: none !important; */
+    /* cursor: pointer; */
+    letter-spacing: 1px;
+    /* text-shadow: none; */
+}
+
+
+/* Mobile Section*/
+@media only screen and (max-width: 650px) {
+
+    .title {
+        padding: 3.5rem;
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #615d6d;
+    }
+
+    .cards {
+        padding: 3.5rem;
+        /* display: flex; */
+        /* justify-content: space-between;
+        column-gap: 2%; */
+    }
+
+    .cardContainer {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .serviceContactButton {
+        width: 300px;
+        margin: 5% 4%;
+        /* padding: 10px 10px;  */
+        border: 2px solid #fff;
+        color: #fff;
+        background: #28a745;
+        font-family: Arial;
+        font-size: 1.0rem;
+        border-radius: 5rem;
+        cursor: pointer;
+        letter-spacing: 1px;
+        text-shadow: none;
+        margin-top: 7rem;
+        vertical-align: middle;
+        /* padding: 0.9375rem 3rem; */
+    }
+
+    
+
+}
+
+
+

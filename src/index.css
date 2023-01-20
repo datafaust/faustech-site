@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Azonix";   /*Can be any text*/
+  src: local("Azonix"),
+    url("./fonts/Azonix-1VB0.otf") format("truetype");
+}

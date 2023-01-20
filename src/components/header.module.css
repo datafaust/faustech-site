@@ -1,0 +1,170 @@
+@keyframes App-world-spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -300px 0; }
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+  }
+  
+.headerLanding {
+    /* position: relative; */
+    /* margin-top: 10%;  */
+    /* background-color: #772953;  */
+    background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
+    /* padding-top: 8.0rem; */
+    /* background-image: url(../assets/hex.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+    /* background-image: url(../assets/yellow_hex.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+    /* background-image: url(../assets/big_hex_patch_yellow_flip_rotate.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+    background-image: url(../assets/big_hex_patch_yellow.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); 
+    /* background-image: url(../assets/big_hex_patch_yellow.png);
+    /* background-image: url(../assets/hex_globe.png) , linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+ 
+    /* height: 900px; */
+    /* animation: animatedBackground 100s linear 5s infinite alternate; */
+    
+}
+
+.headerImage {
+    /* animation: App-world-spin infinite 200s linear; */
+
+}
+
+.headerSet {
+    padding: 4.0rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.title {
+    margin-top: 20%;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: italic;
+    /* text-align: center; */
+    color:white;
+    font-size: 6.375rem;
+}
+
+.subTitle {
+    font-family: "Arial";
+    font-weight: bold;
+    /* text-align: center; */
+    color: white;
+    font-size: 2.8125rem;
+}
+
+.titlePhrase {
+    color: white;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 3.75rem;
+}
+
+.titleContactButton {
+    width: 300px; 
+    /* margin: 5% 40%; */
+    /* padding: 10px 10px;  */
+    border: 2px solid #fff;
+    color: #fff;
+    border-color: #EE82EE;
+    background: #792D81;
+    font-family: Arial;
+    font-size: 1.3rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+    margin-top: 4rem;
+    vertical-align: middle;
+    padding: 0.9375rem 3rem;
+}
+
+
+
+
+
+/* Mobile Section*/
+@media only screen and (max-width: 650px) {
+
+    .headerLanding {
+        /* position: relative; */
+        /* margin-top: 10%;  */
+        /* background-color: #772953;  */
+        /* background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+        /* padding-top: 8.0rem; */
+        /* background-image: url(../assets/yellow_hex.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+        /* background-image: url(../assets/big_hex_patch_yellow_flip_rotate.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
+        /* background-image: url(../assets/big_hex_patch_yellow.png), linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);*/
+        /* animation: animatedBackground 100s linear infinite; */
+        height: 800px;
+    }
+
+    .headerImage {
+        /* padding-top: 7rem; */
+        /* animation: App-world-spin infinite 200s linear; */
+    }
+
+    .title {
+        margin-top: 50%;
+        font-weight: bold;
+        font-family: "Arial";
+        text-align: center;
+        color:white;
+        font-size: 2.3rem;
+    }
+
+    .subTitle {
+        font-family: "Arial";
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 1.8rem;
+        
+    }
+
+    .titlePhrase {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 3.75rem;
+        /* width: 250px; */
+    }
+
+    .titleContactButton {
+        width: 230px; 
+        /* margin: 5% 40%; */
+        /* padding: 10px 10px;  */
+        border: 2px solid #fff;
+        color: #fff;
+        border-color: #EE82EE;
+        background: #792D81;
+        font-family: Arial;
+        font-size: 1.0rem;
+        border-radius: 5rem;
+        cursor: pointer;
+        letter-spacing: 1px;
+        text-shadow: none;
+        margin-top: 4rem;
+        vertical-align: middle;
+        padding: 0.9375rem 3rem;
+    }
+    
+}

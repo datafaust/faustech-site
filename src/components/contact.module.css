@@ -1,0 +1,125 @@
+.container {
+  background-color: white;
+  /* padding-left: 3.0rem;
+  padding-right: 3.0rem; */
+  /* max-width: 1200px; */
+  /* text-align: center; */
+  /* margin-left: 13%; */
+}
+
+.title {
+  /* margin-top: 5%; */
+  padding-top: 4.0rem;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #615d6d;
+  /* margin-left: 4%; */
+}
+
+
+.summary {
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 1.5;
+  margin: 1.875rem 1rem;
+  display: block;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+
+
+.calendarButton {
+  width: 350px;
+  margin: auto; 
+  margin-left: 25%;
+  /* margin: 5% 40%; */
+  /* padding: 10px 10px;  */
+  padding-top: 2.0rem;
+  border: 2px solid #fff;
+  color: #fff;
+  /* background: #05172d; */
+  background: #28a745;;
+  font-family: Arial;
+  font-size: 1.25rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-shadow: none;
+  padding: 0.9375rem 3rem;
+  /* margin-top: 7rem; */
+  /* vertical-align: middle; */
+}
+
+.form {
+  padding-top: 4.0rem;
+  width: 80%;
+  margin-left: 15%;
+}
+
+
+
+
+/* Mobile Section*/
+@media only screen and (max-width: 650px) {
+
+ 
+
+  .title {
+    /* margin-top: 5%; */
+    padding-top: 4.0rem;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 2.75rem;
+    color: #615d6d;
+    
+  }
+
+  .summary {
+    text-align: center;
+    padding-top: 2rem;
+    line-height: 1.5;
+    margin-left: 10%;
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+  }
+
+  .calendarButton {
+    width: 280px;
+    margin: auto; 
+    margin-left: 12%;
+    /* margin: 5% 40%; */
+    /* padding: 10px 10px;  */
+    padding-top: 2.0rem;
+    border: 2px solid #fff;
+    color: #fff;
+    /* background: #05172d; */
+    background: #28a745;;
+    font-family: Arial;
+    font-size: 1.0rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+    padding: 0.9375rem 3rem;
+    /* margin-top: 7rem; */
+    /* vertical-align: middle; */
+  }
+
+  .form {
+    padding-top: 4.0rem;
+    margin: auto;
+  }
+
+}
+
+
+
+

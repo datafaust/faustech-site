@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.cards {
+    width: 75%;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    -webkit-transition: box-shadow .2s ease-out;
+    box-shadow: .8px .9px 3px grey;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.cards:hover {
+    box-shadow: 20px 8px 20px grey;
+    -webkit-transition: box-shadow .2s ease-in;
+    opacity: .8;
+}
+.title {
+    font-weight: bold;
+    color:darkslategray;
+}
+.subtitle {
+    color: grey
+}
+.summary {
+    font-size: .9em;    
+}
+.ul {
+    list-style-type: none;
+    margin-right: 5%
+}
+.li {
+    margin-top: 2%;
+    list-style-type: none
+}
+.imageLogo {
+    width: 10%;
+    margin: 110px 45% 50px 45%
+}
+
+
+
+/*MOBILE CORRECTIONS*/
+
+@media only screen and (max-width: 650px) {
+    .cards {
+        width: 85%;
+        margin: 20px auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .imageLogo {
+        width: 26%;
+        margin: 110px 37% 50px 37%
+    }
+    .title {
+        font-size: .9em;
+        font-weight: bold;
+        color: darkslategray
+    }
+    .subtitle {
+        font-size: .9em;
+        color: grey
+    }
+    .summary {
+        font-size: .8em;    
+    }
+    .ul {
+        list-style-type: none;
+        margin-right: 5%;
+    }
+    .li {
+        margin-top: 2%;
+        list-style-type: none
+    }
+}

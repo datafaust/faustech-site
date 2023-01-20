@@ -1,0 +1,29 @@
+.container {
+    
+}
+.title {
+    text-align: center;
+    /* background-color: yellow; */
+    font-size: 3.0em;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.slideTitle {
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.summary {
+    font-family: 'Open Sans', sans-serif;
+}
+.date {
+    font-family: 'Open Sans', sans-serif;
+}
+.image {
+    float: right;
+}
+.presentations {
+    padding: 20px;
+    margin:10px
+}

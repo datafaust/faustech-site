@@ -1,0 +1,25 @@
+---
+title: 'A Billion Taxi Rides in Clickhouse WSL: All on a Dell G7: rocket'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Why ClickHouse?
+
+Recently I've been wanting to expand my knowledge of other database types beyond SQL variants and map reduce methods with spark. As a data sceintist at the Taxi & Limousine Commission I follow some of the work that is done by the public using our data and have followed [Mark Litwintschik's blog](https://tech.marksblogg.com/) blog for some time. At work we currently lean on SQL Server and PostgreSQL along with Python and R for most of our analyses but I've been curious about incentivizing change (albeit a resistant IT department as many of you probably have).
+
+In 2017 Mark benchmarked 1.1 billion taxi rides using [Todd Schneider's](https://github.com/toddwschneider/nyc-taxi-data) ETL scripts with our public data. It's been some time but I thought I'd give it a shot myself, particularly since I was intrigued by the performance gains over postgres and even spark on a single node machine.  
+
+I didn't want to spin up a cluster on Amazon to pay at the moment, ot to mention all the storage I would need to buy, so I decided to run this on my Dell G7 laptop which has some impresive specs for a cheap laptop.
+
+
+Since clickhouse only runs on linux distributions I chose to run it on Ubuntu 18.04 on WSL (Windows Subsystem Linux). The reason I didn't choose virtualbox was because I wanted to leverage the full power on my computer, and later test Windows HouseOps functionality to access the server locally, a nifty setup to convince the higher ups to use this. 
+
+
+```{r cars}
+summary(cars)
+```
+
