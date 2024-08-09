@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Row, Col, Form, Button, Container } from 'react-bootstrap';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import * as emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
 import classes from './contact.module.css';
 
 import { FaCalendar } from 'react-icons/fa';
+
+import { PopupModal } from "react-calendly";
+
 
 const Contact = props => {
 
@@ -16,6 +19,10 @@ const Contact = props => {
         message: '',
         show: false
     })
+
+    const [showModal, setisOpen] = useState({
+        isOpen: false
+    });
 
     const resetForm = () => {
         setContactInfo({ email: "", message: "", subject: "" });
@@ -31,15 +38,40 @@ const Contact = props => {
     };
 
 
+    // const handleSubmit = (e) => {
+
+    //     // alert("Email is sent");
+
+    //     e.preventDefault()
+
+    //     console.log(contactInfo);
+
+    //     resetForm();
+    // }
+
     const handleSubmit = (e) => {
 
-        // alert("Email is sent");
+        alert("Email is sent");
 
         e.preventDefault()
 
-        console.log(contactInfo);
+        const { email, message, subject } = contactInfo
 
-        resetForm();
+        let templateParams = {
+            from_name: email,
+            to_name: 'faustolopez110@gmail.com',
+            subject: subject,
+            message_html: message,
+        }
+
+        emailjs.send(
+            process.env.REACT_APP_EMAIL_SERVICE_ID,
+            process.env.REACT_APP_EMAIL_TEMPLATE_ID,
+            templateParams,
+            process.env.REACT_APP_EMAIL_PUBLIC_ID
+        )
+
+        resetForm()
     }
 
     return (
@@ -67,11 +99,28 @@ const Contact = props => {
 
                         <br />
 
-                        <button className={classes.calendarButton}>
+                        <button
+                            className={classes.calendarButton}
+                            onClick={() => setisOpen({ isOpen: true })}
+                        >
                             <FaCalendar />
                             {" "}
                             Schedule a Meeting
                         </button>
+
+                        { showModal.isOpen && (<PopupModal
+                            url="https://calendly.com/faustolopez110/30-minute-connection-session"
+                            onModalClose={() => setisOpen(false)}
+                            open={showModal.isOpen}
+                            /*
+                             * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                             * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                             */
+                            rootElement={document.getElementById("root")}
+                        />)}
+
+
+
                         {/* <br />
 
                 <div className={classes.summary}>
@@ -140,7 +189,10 @@ const Contact = props => {
                                 />
                             </Form.Group>
                             <br />
-                            <Button variant="warning" type="submit" style={{ width: '38%', margin: '5% 31%', padding: '10px 20px' }}>
+                            <Button
+                                variant="warning"
+                                type="submit"
+                                style={{ width: '38%', margin: '5% 31%', padding: '10px 20px' }}>
                                 Submit
                             </Button>
                         </Form>

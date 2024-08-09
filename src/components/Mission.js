@@ -14,10 +14,11 @@ const Mission = props => {
             <Row className="align-items-center">
                 <Col >
                     <p className={classes.summary}>
-                        At FausTTech we believe in high quality code, excellent user experience and sustainability.
-                        We don't just build something, we integrate it into your existing system. In this way every
-                        project is a unique piece of a growing system. Our aim is to never compromise on quality and
-                        deliver a final product that is sustainable and expandable.
+                        Like every piece of a honeycomb, products need to fit perfectly to provide a sustainable structure.
+                        At FausTTech we prioritize that very sustainability. We don't just build something, we integrate it 
+                        into your existing system. In this way we recognize every project as a unique piece of your growing business. 
+                        Our aim is to never compromise on quality and deliver a final product that is sustainable so that it grows
+                         when you grow.
                     </p>
                 </Col>
                 <Col  //className={classes.imageContainer}

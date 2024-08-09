@@ -13,6 +13,11 @@
     100% { background-position: -300px 0; }
 }
 
+@keyframes animatedBackgroundVertical {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -300px; }
+}
+
 @keyframes MoveUpDown {
     0%, 100% {
       transform: translateY(0);
@@ -36,7 +41,7 @@
     /* background-image: url(../assets/hex_globe.png) , linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%); */
  
     /* height: 900px; */
-    /* animation: animatedBackground 100s linear 5s infinite alternate; */
+    /* animation: animatedBackgroundVertical 100s linear 5s infinite alternate; */
     
 }
 
@@ -73,7 +78,7 @@
     color: white;
     /* text-align: center; */
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 3.75rem;
 }
 

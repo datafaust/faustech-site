@@ -1,5 +1,5 @@
 .container {
-    background-color: white;
+    background-color: #f7f7f7;
     padding: 4.0rem;
     /* padding: 0 1rem; */
     /* margin-left: 5%; */
@@ -44,7 +44,7 @@
 @media only screen and (max-width: 650px) {
 
     .container {
-        background-color: white;
+        background-color: #f7f7f7;
         padding: 1.0rem;
     }
 

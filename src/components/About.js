@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Image, Container } from 'react-bootstrap';
+import { Row, Container } from 'react-bootstrap';
 
 import classes from './about.module.css';
 
@@ -16,8 +16,8 @@ const About = props => {
                         provide a one stop shop for your tech related needs,
                         while still delivering the highest quality service on
                         all fronts. Need a custom website or application? Not sure how to manage
-                        your data and extract actionable insights? Are you looking to build a development
-                        environment for your developers? Our experts will work with you to provide
+                        your data and extract actionable insights? Are you looking to build a data science
+                        environment for your developers? We can work with you to provide
                         custom solutions to your unique challenges.
                     </p>
                     <br/>
