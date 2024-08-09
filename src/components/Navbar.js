@@ -39,6 +39,24 @@ class NavBarC extends Component {
                 <Link activeClass="" to="contact" spy={true} smooth={true} duration={500} offset={-60}>Contact</Link>
               </Nav.Link>
             </Nav>
+            {/*BLOG */}
+            <Nav>
+              <Nav.Link>
+                <Link activeClass="" to="blog" spy={true} smooth={true} duration={500} offset={-60}>Blog</Link>
+              </Nav.Link>
+            </Nav>
+            {/*TEAM */}
+            <Nav>
+              <Nav.Link>
+                <Link activeClass="" to="team" spy={true} smooth={true} duration={500} offset={-60}>The Team</Link>
+              </Nav.Link>
+            </Nav>
+            {/**FOUNDER INFO**/}
+            {/* <Nav>
+              <Nav.Link>
+                <Link activeClass="" to="founder" spy={true} smooth={true} duration={500} offset={-60}>Founder</Link>
+              </Nav.Link>
+            </Nav> */}
           </Navbar.Collapse>
         </Navbar>
   

@@ -1,7 +1,7 @@
   
 .title {
     /* font-family: sans-serif; */
-    margin-left: 3%;
+    margin-left: 2%;
     font-weight: bold;
     font-family: "Arial";
     font-style: italic;
@@ -12,4 +12,19 @@
     font-family: Arial;
     /* font-style: italic; */
     font-weight: bold;
+    margin-left: 2%;
+}
+
+/* Mobile Section*/
+@media only screen and (max-width: 650px) {
+
+    .title {
+        /* font-family: sans-serif; */
+        margin-left: 5%;
+        font-weight: bold;
+        font-family: "Arial";
+        font-style: italic;
+        /* margin-left: 1%;    */
+    }
+    
 }

@@ -9,6 +9,8 @@ import Footer from './Footer';
 import TechStack from "./TechStack";
 import Mission from "./Mission";
 import Header from "./Header";
+import Blog from "./Blog";
+import Team from './Team';
 
 
 // import ipad from "../assets/ipad.png";
@@ -52,6 +54,7 @@ const Home = props => {
             {/**ABOUT US */}
             <About />
             <br/>
+           
             {/**OUR MISSION */}
             <Mission />
             <br/>
@@ -60,6 +63,12 @@ const Home = props => {
             <br/>
             {/**CONTACT */}
             <Contact />
+            <br/>
+             {/**TEAM */}
+             <Team />
+            <br/>
+            {/**BLOG */}
+            <Blog />
             <br/>
             {/**FOOTER */}
             <Footer />
