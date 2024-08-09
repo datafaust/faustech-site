@@ -21,7 +21,8 @@
 }
 .subtitle {
     text-align: center;
-    color: grey
+    font-weight: bold;
+    color: grey;
 }
 .summary {
     text-align: center;

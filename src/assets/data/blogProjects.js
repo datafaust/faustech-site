@@ -96,7 +96,7 @@ export const projects = [
     {
         'image': nhtsa,
         'title': 'CARSHOP: GETTING VEHICLE DATA WITH R',
-        'text': 'Building an R library to deal with the NHTSA api.',
+        'text': 'Building an R package to deal with the NHTSA api.',
         'tag': 'data',
         'link': 'https://github.com/datafaust/new-personal-site-md/blob/main/documents/nhtsa_api.md',
         'date': '2018-06-01'

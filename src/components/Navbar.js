@@ -28,7 +28,7 @@ class NavBarC extends Component {
               </Nav.Link>
             </Nav>
             {/**Services **/}
-            <Nav>
+            <Nav >
               <Nav.Link>
                 <Link activeClass="" to="services" spy={true} smooth={true} duration={500} offset={-60}>Services</Link>
               </Nav.Link>

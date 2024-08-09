@@ -15,8 +15,10 @@ const EmployeeCard = (props) => {
     return (
         <Card className={classes.cards}>
             <Card.Body>
-                <Card.Title className={classes.title}>
+                <Card.Title>
+                    <div className={classes.title}>
                     {props.title}
+                    </div>
                 </Card.Title>
                 
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
@@ -32,8 +34,10 @@ const EmployeeCard = (props) => {
                     />
                 </div>
                 
-                <Card.Title className={classes.subtitle}>
-                    {props.subtitle}
+                <Card.Title>
+                    <div className={classes.subtitle}>
+                        {props.subtitle}
+                    </div>
                 </Card.Title>
                 <Card.Text className={classes.summary}>
                     {props.summary}
@@ -43,10 +47,10 @@ const EmployeeCard = (props) => {
             <Row>
                 <Col>
                 <div style={{ textAlign: 'center' }}>
-                    <a ><Image className={classes.icon} src={gmail} height={50} width={50} onClick={()=>window.open('mailto:faustolopez110@gmail.com?subject=Contact')} /></a>
+                    <a ><Image className={classes.icon} src={gmail} height={50} width={50} onClick={()=>window.open(`mailto:${props.email}?subject=Contact`)} /></a>
                     <a href='https://www.linkedin.com/in/lopezfausto' target='_blank'><Image className={classes.icon}  src={linkedin} height={50} width={50} /></a>
-                    <a href='https://github.com/datafaust' target='_blank'><Image className={classes.icon}  src={github} height={50} width={50} /></a>
-                    <a href='https://gitlab.com/ulysses' target='_blank'><Image className={classes.icon}  src={gitlab} height={50} width={50} /></a>
+                    <a href={props.github_link} target='_blank'><Image className={classes.icon}  src={github} height={50} width={50} /></a>
+                    {/* <a href='https://gitlab.com/ulysses' target='_blank'><Image className={classes.icon}  src={gitlab} height={50} width={50} /></a> */}
                     <a href={resume} download="fausto-lopez-resume.pdf"><Image className={classes.icon}  src={cv} height={50} width={50} /></a>
                 </div>
                 </Col>
