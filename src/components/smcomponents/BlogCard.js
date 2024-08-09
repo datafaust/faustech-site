@@ -7,17 +7,19 @@ import classes from './blogCard.module.css'
 
 
 const BlogCard = (props) => {
-
+    
     return (
-        <Card style={{ width: '20rem' }} className={classes.cards} >
-        <a href={props.link} target="_blank">
+        <Card style={{ width: '25rem', height: '25rem' }} className={classes.cards} >
+        {/* <a href={props.link} target="_blank"> */}
             <Card.Img style={{
                 display:'block', 
                 marginTop: '4%'
-                }} variant="top" src={props.image} className = {classes.image}/>
+                }} variant="top" src={props.image} className = {classes.image}
+                />
+                <br/>
             <Card.Body>
                 <Card.Title style={{ 
-                    fontSize: '1.5rem',
+                    fontSize: '1.2rem',
                     textAlign: 'center', 
                     fontFamily: 'Open Sans',
                     fontWeight: 'bold'}}>
@@ -33,7 +35,7 @@ const BlogCard = (props) => {
                     {props.text}
                 </Card.Text>
             </Card.Body>
-        </a>
+        {/* </a> */}
     </Card>
     )
 }
