@@ -9,7 +9,7 @@ import cv from "../../assets/curriculum-vitae.png";
 import linkedin from "../../assets/linkedin.png";
 import gitlab from "../../assets/gitlab.png";
 import resume from "../../assets/fausto-lopez-resume.pdf";
-import nico_resume from "../../assets/nico_resume.pdf";
+import NicholasLopezResume from "../../assets/Nicholas-Lopez-Resume.pdf";
 
 const EmployeeCard = props => {
   return (
@@ -80,7 +80,7 @@ const EmployeeCard = props => {
                       width={50}
                     />
                   </a>
-                  <a href={nico_resume} download="nico_resume.pdf">
+                  <a href={NicholasLopezResume} download="nico_resume.pdf">
                     <Image
                       className={classes.icon}
                       src={cv}

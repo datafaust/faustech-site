@@ -170,7 +170,7 @@ export const projects = [
     title: "USER-DRIVEN SERVICE MARKETPLACE",
     text: "This platform allows users to create, manage, and advertise their services, directly connecting with potential clients in a streamlined, self-service environment.",
     tag: "react",
-    link: "https://github.com/datafaust/new-personal-site-md/blob/main/documents/using_tabix_windows.md",
+    link: "https://github.com/Lopez4163/NicheNest",
     date: "2024-05-01",
   },
   {
