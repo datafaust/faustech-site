@@ -32,7 +32,7 @@ const Team = props => {
               github_link={"https://github.com/Lopez4163"}
               image={nico_headshot}
               summary={
-                "A versatile Full Stack Engineer with hands-on experience in JavaScript, React, and Node.js. Over the years, has developed a keen ability to build dynamic applications and solve complex problems, exemplified by work on projects like MatKings and Niche Nest. Thrives in fast-paced environments where continuous learning and innovation are key, and takes pride in delivering high-quality code and impactful solutions. With a solid background in both technical development and team leadership, is dedicated to growing as a developer and contributing to cutting-edge projects."
+                "A skilled Full Stack Engineer with expertise in JavaScript, React, and Node.js. Known for building dynamic applications and solving complex problems, as seen in projects like MatKings and Niche Nest. Enjoys continuous learning and delivering high-quality code, thriving in fast-paced environments and contributing to impactful solutions."
               }
             />
           </Col>
