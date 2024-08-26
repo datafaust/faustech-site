@@ -32,7 +32,7 @@ const Team = props => {
               github_link={"https://github.com/Lopez4163"}
               image={nico_headshot}
               summary={
-                "John Doe is a seasoned Full Stack Engineer with over 10 years of experience in web development. He excels in creating scalable, high-performance applications using a wide range of technologies, including React, Node.js, and MongoDB. John is passionate about coding best practices and enjoys mentoring junior developers to help them achieve their potential."
+                "A versatile Full Stack Engineer with hands-on experience in JavaScript, React, and Node.js. Over the years, has developed a keen ability to build dynamic applications and solve complex problems, exemplified by work on projects like MatKings and Niche Nest. Thrives in fast-paced environments where continuous learning and innovation are key, and takes pride in delivering high-quality code and impactful solutions. With a solid background in both technical development and team leadership, is dedicated to growing as a developer and contributing to cutting-edge projects."
               }
             />
           </Col>
