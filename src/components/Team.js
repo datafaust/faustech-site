@@ -20,7 +20,7 @@ const Team = props => {
                 "https://media.licdn.com/dms/image/C4D03AQF4a2FhUX9jdg/profile-displayphoto-shrink_400_400/0/1553571330316?e=1727913600&v=beta&t=9Ywl6Djbp4Mk14dtD-AV8xjynEMxV_0dxd3YMxoFE6s"
               }
               summary={
-                "John Doe is a seasoned Full Stack Engineer with over 10 years of experience in web development. He excels in creating scalable, high-performance applications using a wide range of technologies, including React, Node.js, and MongoDB. John is passionate about coding best practices and enjoys mentoring junior developers to help them achieve their potential."
+                "Full Stack Software Engineer with 10+ years of experience specializing in big data applications. Skilled in designing scalable infrastructures, developing APIs, and transforming complex data into actionable insights. Proficient in React, Node.js, SQL and Express, with a proven ability to deliver solutions that drive business growth. Experienced in managing the full software development lifecycle for seamless integration and deployment."
               }
             />
           </Col>
@@ -32,7 +32,7 @@ const Team = props => {
               github_link={"https://github.com/Lopez4163"}
               image={nico_headshot}
               summary={
-                "A skilled Full Stack Engineer with expertise in JavaScript, React, and Node.js. Known for building dynamic applications and solving complex problems, as seen in projects like MatKings and Niche Nest. Enjoys continuous learning and delivering high-quality code, thriving in fast-paced environments and contributing to impactful solutions."
+                "A skilled Full Stack Software Engineer with expertise in JavaScript, React, and Node.js. Known for building dynamic applications, designing and developing robust APIs and solving complex problems, as seen in projects like MatKings and Niche Nest. Enjoys continuous learning and delivering high-quality code, thriving in fast-paced environments and contributing to impactful solutions."
               }
             />
           </Col>
