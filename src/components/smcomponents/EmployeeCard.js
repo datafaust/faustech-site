@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image, Row, Col } from "react-bootstrap";
+import { Card, Image } from "react-bootstrap";
 import classes from "./employeeCard.module.css";
 
 /**IMAGE LOADING */
@@ -44,77 +44,80 @@ const EmployeeCard = props => {
         <Card.Text className={classes.summary}>{props.summary}</Card.Text>
 
         {/**PANEL */}
-        <Row>
-          <Col>
-            <div style={{ textAlign: "center" }}>
-              <a>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "10px", // Adjusts the spacing between icons
+            flexWrap: "wrap",
+          }}
+        >
+          <a>
+            <Image
+              className={classes.icon}
+              src={gmail}
+              height={40}
+              width={40}
+              onClick={() =>
+                window.open(`mailto:${props.email}?subject=Contact`)
+              }
+            />
+          </a>
+          <a href={props.github_link} target="_blank">
+            <Image
+              className={classes.icon}
+              src={github}
+              height={40}
+              width={40}
+            />
+          </a>
+          {/* <a href='https://gitlab.com/ulysses' target='_blank'><Image className={classes.icon}  src={gitlab} height={50} width={50} /></a> */}
+          {props.title === "Nicholas Lopez" ? (
+            <>
+              <a
+                href="https://www.linkedin.com/in/nicholas-lopez-83b031299/"
+                target="_blank"
+              >
                 <Image
                   className={classes.icon}
-                  src={gmail}
-                  height={50}
-                  width={50}
-                  onClick={() =>
-                    window.open(`mailto:${props.email}?subject=Contact`)
-                  }
+                  src={linkedin}
+                  height={40}
+                  width={40}
                 />
               </a>
-              <a href={props.github_link} target="_blank">
+              <a href={NicholasLopezResume} download="nico_resume.pdf">
                 <Image
                   className={classes.icon}
-                  src={github}
-                  height={50}
-                  width={50}
+                  src={cv}
+                  height={40}
+                  width={40}
                 />
               </a>
-              {/* <a href='https://gitlab.com/ulysses' target='_blank'><Image className={classes.icon}  src={gitlab} height={50} width={50} /></a> */}
-              {props.title === "Nicholas Lopez" ? (
-                <div className="">
-                  <a
-                    href="https://www.linkedin.com/in/nicholas-lopez-83b031299/"
-                    target="_blank"
-                  >
-                    <Image
-                      className={classes.icon}
-                      src={linkedin}
-                      height={50}
-                      width={50}
-                    />
-                  </a>
-                  <a href={NicholasLopezResume} download="nico_resume.pdf">
-                    <Image
-                      className={classes.icon}
-                      src={cv}
-                      height={50}
-                      width={50}
-                    />
-                  </a>
-                </div>
-              ) : (
-                <div className="">
-                  <a
-                    href="https://www.linkedin.com/in/lopezfausto"
-                    target="_blank"
-                  >
-                    <Image
-                      className={classes.icon}
-                      src={linkedin}
-                      height={50}
-                      width={50}
-                    />
-                  </a>
-                  <a href={resume} download="fausto-lopez-resume.pdf">
-                    <Image
-                      className={classes.icon}
-                      src={cv}
-                      height={50}
-                      width={50}
-                    />
-                  </a>
-                </div>
-              )}
-            </div>
-          </Col>
-        </Row>
+            </>
+          ) : (
+            <>
+              <a
+                href="https://www.linkedin.com/in/lopezfausto"
+                target="_blank"
+              >
+                <Image
+                  className={classes.icon}
+                  src={linkedin}
+                  height={40}
+                  width={40}
+                />
+              </a>
+              <a href={resume} download="fausto-lopez-resume.pdf">
+                <Image
+                  className={classes.icon}
+                  src={cv}
+                  height={40}
+                  width={40}
+                />
+              </a>
+            </>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
