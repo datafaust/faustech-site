@@ -18,6 +18,7 @@ import computerViz from "../../assets/computerViz.png";
 import geohut from "../../assets/geohut.PNG";
 import nicheNest from "../../assets/NicheNestLogo.png";
 import matKings from "../../assets/matKings.jpeg";
+import restringer from "../../assets/restringer.png";
 
 export const projects = [
   // {
@@ -164,6 +165,14 @@ export const projects = [
     tag: "data",
     link: "https://github.com/datafaust/new-personal-site-md/blob/main/documents/using_tabix_windows.md",
     date: "2019-12-01",
+  },
+  {
+    image: restringer,
+    title: "Mobile Stringer",
+    text: "This website showcases a tennis stringer’s services, providing a platform for clients to learn more about their expertise and easily get in touch via email.",
+    tag: "react",
+    link: "https://mobile-stringer.netlify.app/",
+    date: "2022-09-01",
   },
   {
     image: nicheNest,
