@@ -32,6 +32,21 @@ const TechStack = props => {
   let icons = null;
   if (state.show) {
     icons = icon_list.map((icon, i) => {
+      if (icon === "windowsIcon") {
+        return (
+          <Image
+            key={i}
+            src={require(`../assets/${icon}.png`)}
+            rounded
+            style={{
+              width: "200px",
+              height: "180px",
+              margin: "auto",
+              marginTop: "20px",
+            }}
+          />
+        );
+      }
       if (icon === "cloudImg") {
         return (
           <Image
