@@ -96,7 +96,7 @@ const Contact = props => {
                             </p>
                             <p>
                             <p>or call us at:</p>
-                            <a href="tel:3474792068">(347) 479-2068</a><br />
+                            <a href="tel:3474792068">(646) 543-5536</a><br />
                             <a href="tel:6466393360">(646) 639-3360</a>
                             </p>
                             <p>
