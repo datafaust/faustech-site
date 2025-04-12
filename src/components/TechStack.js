@@ -16,19 +16,37 @@ const TechStack = props => {
   };
 
   const icon_list = [
-    "rpic",
-    "python",
-    "shiny",
+    "windowsIcon",
+    "macIcon",
+    "cloudImg",
     "linux",
-    "sql",
-    "js2",
-    "docker",
-    "aws",
+    // // "rpic",
+    // // "python",
+    // "shiny",
+    // "sql",
+    // "js2",
+    // "docker",
+    // "aws",
   ];
 
   let icons = null;
   if (state.show) {
     icons = icon_list.map((icon, i) => {
+      if (icon === "cloudImg") {
+        return (
+          <Image
+            key={i}
+            src={require(`../assets/${icon}.png`)}
+            rounded
+            style={{
+              width: "200px",
+              height: "150px",
+              margin: "auto",
+              marginTop: "20px",
+            }}
+          />
+        );
+      }
       return (
         <Image
           key={i}
@@ -48,19 +66,19 @@ const TechStack = props => {
   return (
     <div className={classes.container}>
       <Container>
-        <h1 className={classes.techStackTitle}>Our Tech Stack</h1>
+        <h1 className={classes.techStackTitle}>How We Work</h1>
         <Row className="align-items-center">
-          <Col>
-            <div className={classes.stack}>{icons}</div>
-          </Col>
-          <Col>
+          <div>
             <p className={classes.summary}>
-              Our expertise spans a variety of technologies, making us very
-              adaptable to your specific situation. We will work with your
-              current setup to ensure our services are complimentary and
-              sustainable so that you can focus on your goals and objectives.
+              We’re fluent in today’s tech—so you don’t have to be.
+              Whether you run your business on Windows or Mac, use cloud-based apps or old-school systems, we adapt to your setup and build around it. Our goal is to make your tech smoother, smarter, and more reliable—without disrupting your workflow.
+              From routers and networks to business software, smart devices, and data systems—we’ll support what you use and recommend upgrades only when it truly makes sense.
+              We don’t believe in one-size-fits-all. We believe in meeting you where you are, and taking you where you need to go.
             </p>
-          </Col>
+          </div>
+          <div>
+            <div className={classes.stack}>{icons}</div>
+          </div>
         </Row>
       </Container>
     </div>

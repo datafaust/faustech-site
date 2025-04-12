@@ -59,7 +59,7 @@ const Contact = props => {
 
         let templateParams = {
             from_name: email,
-            to_name: 'faustolopez110@gmail.com',
+            to_name: 'queenstechbros@gmail.com',
             subject: subject,
             message_html: message,
         }
@@ -90,14 +90,23 @@ const Contact = props => {
 
 
                         <div className={classes.summary}>
-                            <p>For any inquiries, please email <a href='www.google.com'>faustoLopez110@gmail.com</a> or message us via the form on your right.</p>
-                            <br />
+                        <p>
+                            For any inquiries, please email:
+                            <a href="mailto:queenstechbros@gmail.com"> queenstechbros@gmail.com</a>
+                            </p>
                             <p>
-                                Note that before any work can be performed, a (virtual) meeting is usually held to gather requirements and discuss your needs. Feel free to schedule a meeting below.
+                            <p>or call us at:</p>
+                            <a href="tel:3474792068">(347) 479-2068</a><br />
+                            <a href="tel:6466393360">(646) 639-3360</a>
+                            </p>
+                            <p>
+                            Or message us via the form on your right.
+                            </p>
+                            <p>
+                            Note that before any work can be performed, a (virtual) meeting is usually held to gather requirements and discuss your needs. Feel free to schedule a meeting below.
                             </p>
                         </div>
 
-                        <br />
 
                         <button
                             className={classes.calendarButton}
@@ -192,7 +201,7 @@ const Contact = props => {
                             <Button
                                 variant="warning"
                                 type="submit"
-                                style={{ width: '38%', margin: '5% 31%', padding: '10px 20px' }}>
+                                style={{ width: '100px', margin: '5% 20%', padding: '10px 20px' }}>
                                 Submit
                             </Button>
                         </Form>

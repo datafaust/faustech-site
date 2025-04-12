@@ -66,11 +66,10 @@
 /* Mobile Section*/
 @media only screen and (max-width: 650px) {
 
- 
 
   .title {
     /* margin-top: 5%; */
-    padding-top: 4.0rem;
+    padding-top: 2.0rem;
     text-align: center;
     font-family: Arial;
     font-weight: bold;
@@ -81,10 +80,10 @@
 
   .summary {
     text-align: center;
-    padding-top: 2rem;
     line-height: 1.5;
     margin-left: 10%;
     display: block;
+    margin-top: 1px;
     /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -92,9 +91,9 @@
   }
 
   .calendarButton {
-    width: 280px;
+    width: 200px;
     margin: auto; 
-    margin-left: 12%;
+    margin-left: 5%;
     /* margin: 5% 40%; */
     /* padding: 10px 10px;  */
     padding-top: 2.0rem;
@@ -104,7 +103,7 @@
     background: #28a745;;
     font-family: Arial;
     font-size: 1.0rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
     cursor: pointer;
     letter-spacing: 1px;
     text-shadow: none;
@@ -114,7 +113,7 @@
   }
 
   .form {
-    padding-top: 4.0rem;
+    padding-top: 2.0rem;
     margin: auto;
   }
 

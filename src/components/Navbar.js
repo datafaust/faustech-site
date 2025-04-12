@@ -19,7 +19,7 @@ class NavBarC extends Component {
     return (
   
         <Navbar className="fixed-top" collapseOnSelect expand="lg" style={{ background: "linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%)" }}  variant="dark">
-          <Navbar.Brand href="/" className={classes.title}>FAUSTTech</Navbar.Brand>
+          <Navbar.Brand href="/" className={classes.title}>QUEENS TECH BROS</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className={classes.navbarChoices}>
             <Nav>
@@ -40,11 +40,11 @@ class NavBarC extends Component {
               </Nav.Link>
             </Nav>
             {/*BLOG */}
-            <Nav>
+            {/* <Nav>
               <Nav.Link>
                 <Link activeClass="" to="blog" spy={true} smooth={true} duration={500} offset={-60}>Blog</Link>
               </Nav.Link>
-            </Nav>
+            </Nav> */}
             {/*TEAM */}
             <Nav>
               <Nav.Link>

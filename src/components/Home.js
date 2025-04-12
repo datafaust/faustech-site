@@ -61,14 +61,15 @@ const Home = props => {
             {/**TECH STACK PORTION */}
             <TechStack />
             <br/>
-            {/**CONTACT */}
-            <Contact />
             <br/>
              {/**TEAM */}
              <Team />
             <br/>
+            {/**CONTACT */}
+            <Contact />
             {/**BLOG */}
-            <Blog />
+            {/* <Blog />
+            <br/> */}
             <br/>
             {/**FOOTER */}
             <Footer />

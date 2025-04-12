@@ -27,12 +27,12 @@ const Team = props => {
           <Col>
             <EmployeeCard
               title={"Nicholas Lopez"}
-              subtitle={"Co Founder - Full Stack Software Engineer"}
+              subtitle={"Co Founder - Software Engineer / IT Technician"}
               email={"lopez4163@gmail.com "}
               github_link={"https://github.com/Lopez4163"}
               image={nico_headshot}
               summary={
-                "A skilled Full Stack Software Engineer with expertise in JavaScript, React, and Node.js. Known for building dynamic applications, designing and developing robust APIs and solving complex problems, as seen in projects like MatKings and Niche Nest. Enjoys continuous learning and delivering high-quality code, thriving in fast-paced environments and contributing to impactful solutions."
+                "A skilled Software Engineer and IT Technician with a Bachelor's in Computer Systems and AWS Certified Cloud Practitioner credentials. Experienced in building full stack applications using JavaScript, React, and Node.js, while also providing hands-on IT support including Windows-based network setup, file sharing, user account management, and system troubleshooting. Known for delivering reliable solutions in both development and infrastructure, with a passion for learning and problem-solving across the tech stack."
               }
             />
           </Col>
