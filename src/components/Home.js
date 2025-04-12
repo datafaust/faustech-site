@@ -71,6 +71,7 @@ const Home = props => {
             {/* <Blog />
             <br/> */}
             <br/>
+            <br/>
             {/**FOOTER */}
             <Footer />
 

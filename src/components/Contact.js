@@ -199,6 +199,7 @@ const Contact = props => {
                             </Form.Group>
                             <br />
                             <Button
+                                className="submitBtn"
                                 variant="warning"
                                 type="submit"
                                 style={{ width: '100px', margin: '5% 20%', padding: '10px 20px' }}>
