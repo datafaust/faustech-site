@@ -36,7 +36,7 @@
     border-radius: 5rem;
     /* background: #05172d; */
     background: #28a745;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #fff;
     /* text-decoration: none !important; */
     /* cursor: pointer; */
@@ -70,8 +70,8 @@
     }
 
     .serviceContactButton {
-        width: 300px;
-        margin: 5% 4%;
+        width: 250px;
+        margin: 5% 18%;
         /* padding: 10px 10px;  */
         border: 2px solid #fff;
         color: #fff;
@@ -82,7 +82,7 @@
         cursor: pointer;
         letter-spacing: 1px;
         text-shadow: none;
-        margin-top: 7rem;
+        margin-top: 2rem;
         vertical-align: middle;
         /* padding: 0.9375rem 3rem; */
     }

@@ -44,7 +44,7 @@ const Services = props => {
         >
             
             <h3 className={classes.title}>
-                Our Services
+                What We Offer to Keep Your Tech in Check
             </h3>
 
             <Row className={classes.cardContainer}>

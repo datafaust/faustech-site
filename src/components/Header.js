@@ -37,9 +37,9 @@ const Header = props => {
                         <div className={classes.headerSet}
                         >
 
-                            <h1 className={classes.title}>FAUSTTech</h1>
-                            <h2 className={classes.subTitle}>Technology Consulting</h2>
-                            <h4 className={classes.titlePhrase}>{"Prototype " + " > " + " Build " + " > " + " Deploy"}</h4>
+                            <h1 className={classes.title}>Queens Tech Bros</h1>
+                            <h2 className={classes.subTitle}>IT Solutions For Your Business</h2>
+                            {/* <h4 className={classes.titlePhrase}>{"Prototype " + " > " + " Build " + " > " + " Deploy"}</h4> */}
                             <Link activeClass="" to="contact" spy={true} smooth={true} duration={500} offset={-60}>
                                 <button className={classes.titleContactButton}>
                                     <FiMail />

@@ -14,11 +14,9 @@ const Mission = props => {
             <Row className="align-items-center">
                 <Col >
                     <p className={classes.summary}>
-                        Like every piece of a honeycomb, products need to fit perfectly to provide a sustainable structure.
-                        At FausTTech we prioritize that very sustainability. We don't just build something, we integrate it 
-                        into your existing system. In this way we recognize every project as a unique piece of your growing business. 
-                        Our aim is to never compromise on quality and deliver a final product that is sustainable so that it grows
-                         when you grow.
+                    At Queens Tech Bros, we believe in honest work done to perfection. Every job gets our full effort, because we treat your business like it’s our own. 
+                    We don’t cut corners—we take pride in delivering tech solutions that are reliable, thoughtful, and built to last. With every project, we bring a personal touch, real passion,
+                     and the same care we’d give to our own systems. That’s how we do business—Queens style.
                     </p>
                 </Col>
                 <Col  //className={classes.imageContainer}
